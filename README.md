@@ -2,7 +2,7 @@
 
 A minimal dependency injection container for TypeScript with class and property decorators, supporting singleton lifecycle and circular dependency detection.
 
-This package is inspired by [https://github.com/typestack/typedi](Typedi).
+This package is inspired by [Typedi](https://github.com/typestack/typedi).
 
 ## Features
 
