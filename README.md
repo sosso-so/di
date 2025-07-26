@@ -24,7 +24,7 @@ You can copy the source code directly into your project or package it as needed.
 ### Mark a class as injectable
 
 ```ts
-import { Injectable } from '@sosso-so/di';
+import { Injectable } from '@sosso.so/di';
 
 @Injectable()
 class Logger {
@@ -37,7 +37,7 @@ class Logger {
 ### Inject dependencies into properties
 
 ```ts
-import { Inject } from '@sosso-so/di';
+import { Inject } from '@sosso.so/di';
 
 @Injectable()
 class Service {
@@ -53,7 +53,7 @@ class Service {
 ### Resolve instances with the container
 
 ```ts
-import { Container } from '@sosso-so/di';
+import { Container } from '@sosso.so/di';
 
 const service = Container.get(Service);
 service.doSomething();
