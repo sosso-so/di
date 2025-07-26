@@ -1,0 +1,4 @@
+# .npmignore
+src/
+tsup.config.ts
+vitest.config.ts
