@@ -1,5 +1,5 @@
 {
-  "name": "@sosso.so/di",
+  "name": "@sossohq/di",
   "version": "1.0.1",
   "description": "A lightweight and fast dependency injection container for TypeScript and Node.js.",
   "main": "./dist/container.cjs",

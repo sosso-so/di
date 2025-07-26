@@ -15,7 +15,7 @@ A minimal dependency injection container for TypeScript with class and property 
 
 ## Installation
 
-`npm install @sosso.so/di`
+`npm install @sossohq/di`
 
 ---
 
@@ -24,7 +24,7 @@ A minimal dependency injection container for TypeScript with class and property 
 ### Mark a class as injectable
 
 ```ts
-import { Injectable } from '@sosso.so/di';
+import { Injectable } from '@sossohq/di';
 
 @Injectable()
 class Logger {
@@ -37,7 +37,7 @@ class Logger {
 ### Inject dependencies into properties
 
 ```ts
-import { Inject } from '@sosso.so/di';
+import { Inject } from '@sossohq/di';
 
 @Injectable()
 class Service {
@@ -53,7 +53,7 @@ class Service {
 ### Resolve instances with the container
 
 ```ts
-import { Container } from '@sosso.so/di';
+import { Container } from '@sossohq/di';
 
 const service = Container.get(Service);
 service.doSomething();
