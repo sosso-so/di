@@ -2,12 +2,12 @@
   "name": "@sosso/di",
   "version": "1.0.0",
   "description": "A lightweight and fast dependency injection container for TypeScript and Node.js.",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/container.cjs",
+  "module": "./dist/container.mjs",
+  "types": "./dist/container.d.ts",
   "exports": {
-    "import": "./dist/index.mjs",
-    "require": "./dist/index.cjs"
+    "import": "./dist/container.mjs",
+    "require": "./dist/container.cjs"
   },
   "files": [
     "dist"
