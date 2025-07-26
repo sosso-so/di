@@ -15,7 +15,7 @@ A minimal dependency injection container for TypeScript with class and property 
 
 ## Installation
 
-You can copy the source code directly into your project or package it as needed.
+`npm install @sosso.so/di`
 
 ---
 
